@@ -29,4 +29,4 @@ Instructions for setting up and using the project on local system.
 For certain features of TPC, Training and Placement cell members will have to download [Postman](https://www.postman.com/downloads).  
 Or use Postman on web at [https://www.postman.com/](https://www.postman.com/).  
   
-More API documentation can be found at [College Placement Portal Server API Documentaion on Postman](https://documenter.geTPCstman.com/view/9429369/UVC8DmL9).
+More API documentation can be found at [College Placement Portal Server API Documentaion on Postman](https://documenter.getpostman.com/view/9429369/UVC8DmL9).

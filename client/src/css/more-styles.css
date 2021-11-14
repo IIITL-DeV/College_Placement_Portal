@@ -1,0 +1,322 @@
+.dashboard__section {
+  background-color: #efefef;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.dashboard__container {
+  margin: 7rem auto 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dashboard__cunt-2 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.jobsApply__section {
+  background-color: #efefef;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jobsApply__section-heading {
+  text-transform: uppercase;
+  margin: 6rem auto 4rem auto;
+  font-size: 2rem;
+  font-weight: 700;
+  -webkit-transform: scale(1.2, 1);
+          transform: scale(1.2, 1);
+}
+
+.jobsApply__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.AddJob__section {
+  margin: 0 auto;
+  background-image: linear-gradient(135deg, transparent 0%, transparent 17%, rgba(87, 146, 234, 0.21) 17%, rgba(87, 146, 234, 0.21) 59%, transparent 59%, transparent 64%, rgba(149, 170, 236, 0.29) 64%, rgba(149, 170, 236, 0.29) 100%), linear-gradient(45deg, transparent 0%, transparent 2%, rgba(189, 221, 255, 0.47) 2%, rgba(189, 221, 255, 0.47) 46%, rgba(114, 178, 239, 0.27) 46%, rgba(114, 178, 239, 0.27) 54%, transparent 54%, transparent 63%, rgba(170, 186, 248, 0.29) 63%, rgba(170, 186, 248, 0.29) 100%), linear-gradient(90deg, white, white);
+}
+
+.AddJob__section-heading {
+  text-transform: uppercase;
+  margin: 1rem auto;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  -webkit-transform: scale(1.2, 1);
+          transform: scale(1.2, 1);
+  margin-top: 5rem;
+}
+
+.AddJob__section-para {
+  color: slategrey;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.AddJob__section-para sup {
+  color: red;
+  font-size: 1rem;
+}
+
+.AddJob__container {
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.AddJob__form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AddJob__form > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem auto;
+}
+
+.AddJob__form > div > div label {
+  font-size: 1.2rem;
+  color: #404040;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.AddJob__form > div > div label sup {
+  color: red;
+}
+
+.AddJob__form > div input,
+.AddJob__form > div textarea {
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  border: none;
+  outline: none !important;
+  background-color: transparent;
+  border-bottom: 2px solid #848484;
+}
+
+.AddJob__form-text {
+  margin-left: 2rem;
+}
+
+.AddJob__form-text textarea {
+  outline: none !important;
+  word-wrap: wrap;
+  height: 10rem !important;
+  width: 50rem !important;
+}
+
+.AddJob__form-file input {
+  border: none !important;
+  margin: 0.5rem;
+}
+
+.AddJob__form-checkbox {
+  width: 20rem;
+}
+
+.AddJob__form-checkbox label {
+  margin: 0.3rem 0;
+}
+
+.AddJob__form-checkbox label sup {
+  color: red;
+}
+
+.AddJob__form-checkbox input {
+  margin: 0.3rem 1rem !important;
+  border: 1px solid slategrey !important;
+  height: 2rem !important;
+  width: 2rem !important;
+}
+
+.AddJob__submit {
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #0371ee;
+  margin: 2rem 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  height: 3rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1198px) {
+  .dashboard__cunt-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.dashboardTpo__section {
+  background-color: #ebebeb;
+}
+
+.dashboardTpo__container {
+  width: 80%;
+  margin: 7rem auto 2rem;
+}
+
+.dashboardTpo__links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboardTpo__links ul li {
+  border-radius: 3px;
+  background-color: #4c4c4c;
+  margin: 1rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.1rem;
+  color: #fffaf1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.dashboardTpo__links ul li:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.dashboardTpo__cunt {
+  max-width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dashboardTpo__cunt > div {
+  border-radius: 3px;
+  margin: 0.4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #1a5f99;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dashboardTpo__cunt > div h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  color: white;
+}
+
+.dashboardTpo__cunt > div ul {
+  margin: 0 auto;
+  background-color: #ebebeb;
+  overflow-y: scroll;
+  height: 30rem;
+  padding: 0.5rem 0;
+}
+
+.dashboardTpo__cunt > div ul li {
+  border-radius: 3px;
+  padding: 0.3rem;
+  margin: 0.5rem auto;
+  width: 95%;
+  background-color: #e2e2e2;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.allStudents__section {
+  width: 100%;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.allStudents__section-heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  -webkit-transform: scale(1.2, 1);
+          transform: scale(1.2, 1);
+}
+/*# sourceMappingURL=more-styles.css.map */
